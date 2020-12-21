@@ -38,19 +38,19 @@
     </v-app-bar>
 
     <v-main>
-      <HelloWorld/>
+      <Dialog/>
     </v-main>
   </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld';
+import Dialog from './components/Dialog';
 
 export default {
   name: 'App',
 
   components: {
-    HelloWorld,
+    Dialog,
   },
 
   data: () => ({
